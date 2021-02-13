@@ -25,7 +25,7 @@ font-style: normal;
   --basic-medium-dark-grey: #666666;
 
 }
-  .page-body {
+ .page-body {
  font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   line-height: 21px;
@@ -33,9 +33,22 @@ font-style: normal;
   color: var(--basic-black);
   text-transform: uppercase;
   background-color: var(--basic-white);
-  background-image: url("../img/background photo.jpg");
-  background-position: top center;
-  background-repeat: no-repeat;
+}
+
+.page-body-catalog {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+}
+
+.container{
+ max-width: 1170px;
+ padding: 0 15px;
+ margin: 0 auto;
 }
 
 img {
@@ -63,6 +76,18 @@ img {
 }
 .site-navigation-disabled {
   color: var(--basic-light-brown);
+}
+.first-screen {
+  background-image: url("../img/background photo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first-screen-catalog {
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Main-index */
@@ -107,6 +132,13 @@ img {
   line-height: 21px;
 }
 
+.feature-item p {
+  color: var( --basic-dark-grey);
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
 .benefits2 {
   color: var(--basic-white);
   background-color: var(--basic-medium-light-blue);
@@ -135,8 +167,24 @@ img {
   line-height: 21px;
 }
 
+.benefits3-5-items p {
+  color: var( --basic-dark-grey)
+  line-height: 21px;
+  font-weight: 400;
+}
+
 .article {
   text-align: center;
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.article p {
+ color: var( --basic-dark-grey);
+ font-size: 14px;
+ line-height: 24px;
+  font-weight: 400;
 }
 
 .button-index {
@@ -147,8 +195,20 @@ img {
   border: none;
 }
 /* Main-catalog */
-.parameters {
-  /*color: var(--basic-white);*/
+
+.container-catalog {
+  color: var( --basic-white);
+}
+
+.fieldset legend {
+ font-size: 16px;
+ line-height: 21px;
+ font-weight: 700;
+}
+.fieldset li {
+ font-size: 14px;
+ line-height: 21px;
+ font-weight: 400;
 }
 
 legend {
@@ -166,10 +226,50 @@ font-size: 21px;
 line-height: 26px;
 font-weight: 700px;
 }
+.housing p {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.find {
+  color: var(--basic-black);
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700px;
+}
+
+.sorting {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.price {
+  color: var(--basic-medium-light-blue);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.type {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.3;
+}
+
+.rating {
+  color: var(--basic-black);
+  font-size: 12px;
+  line-height: 18px;
+  opacity: 0.3;
+}
 
 /*button*/
 
 .detail {
+  color: var(--basic-black);
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
   vertical-align: middle;
   color: var(--basic-white);
@@ -178,6 +278,8 @@ font-weight: 700px;
 }
 
 .booking {
+  font-size: 14px;
+  line-height: 21px;
   text-align: center;
   vertical-align: middle;
   color: var(--basic-white);
