@@ -1,0 +1,199 @@
+@font-face {
+font-family: "PTSans";
+sre: url("../fonts/PTSans.woff2") format("woff2"),
+url("../fonts/PTSans.woff") format("woff");
+font-weight: 400;
+font-style: normal;
+}
+
+@font-face {
+ font-family: "PTSans";
+sre: url("../fonts/PTSans-Bold.woff2") format("woff2"),
+url("../fonts/PTSans-Bold.woff") format("woff");
+font-weight: 700;
+font-style: normal;
+}
+
+:root {
+  --basic-white: #FFFFFF;
+  --basic-light-grey: #EEEEEE;
+  --basic-medium-light-blue:#81B3D2;
+  --basic-light-brown:#766357;
+  --basic-smoky-white:#F2F2F2;
+  --basic-black: #000000;
+  --basic-dark-grey: #333333;
+  --basic-medium-dark-grey: #666666;
+
+}
+  .page-body {
+ font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url("../img/background photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main navigation */
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+/* Site Navigation */
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: var(--basic-black);
+}
+.site-navigation-disabled {
+  color: var(--basic-light-brown);
+}
+
+/* Main-index */
+
+.slogan {
+  text-align: center;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.slogan p {
+ color: var(--basic-dark-grey);
+ text-align: center;
+ font-size: 14px;
+ line-height: 26px;
+ font-weight: 400;
+}
+
+.benefits1 {
+  color: var(--basic-white);
+  background-color: var(--basic-medium-light-blue);
+}
+
+.benefits1 h2{
+ font-size: 21px;
+ line-height: 21px;
+ font-weight: 700;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.feature-item {
+  color: var( --basic-dark-grey);
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.benefits2 {
+  color: var(--basic-white);
+  background-color: var(--basic-medium-light-blue);
+}
+
+.benefits2 h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.benefits3-5 {
+  background-color: var(--basic-light-grey);
+}
+
+.benefits3-5-list {
+  list-style: none;
+}
+
+.benefits3-5-items {
+  color: var(--basic-dark-grey);
+  text-align: center;
+}
+
+.benefits3-5-items h3 {
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.article {
+  text-align: center;
+}
+
+.button-index {
+  text-align: center;
+  color: var(--basic-white);
+  vertical-align: middle;
+  background-color: var( --basic-medium-light-blue);
+  border: none;
+}
+/* Main-catalog */
+.parameters {
+  /*color: var(--basic-white);*/
+}
+
+legend {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 700px;
+}
+
+ul {
+  list-style: none;
+}
+
+.housing h3 {
+font-size: 21px;
+line-height: 26px;
+font-weight: 700px;
+}
+
+/*button*/
+
+.detail {
+  text-align: center;
+  vertical-align: middle;
+  color: var(--basic-white);
+  background-color: var(--basic-medium-light-blue);
+  border: none;
+}
+
+.booking {
+  text-align: center;
+  vertical-align: middle;
+  color: var(--basic-white);
+  background-color: var(--basic-light-brown);
+  border: none;
+}
+/* footer */
+.main-footer {
+  color: var(--basic-black);
+}
+
+.footer-social {
+  text-align: center;
+}
+
+.footer-social li {
+  list-style: none;
+}
+
